@@ -1,0 +1,59 @@
+.Email {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #fafafa; /* Light background color similar to Instagram */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  h1 {
+    font-size: 24px;
+    color: #262626; /* Dark text for visibility */
+    margin-bottom: 15px;
+    padding-top: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    label {
+      font-size: 16px;
+      color: #434141; /* Lighter grey for label */
+      margin-bottom: 8px;
+    }
+    input {
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #dbdbdb;
+      border-radius: 8px;
+      font-size: 16px;
+      background-color: #fff;
+      color: #262626;
+    }
+    input:focus {
+      border-color: #0095f6; /* Instagram blue on focus */
+      outline: none;
+    }
+    button {
+      padding: 12px 24px;
+      background-color: #0095f6; /* Instagram blue */
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 12px;
+      transition: background-color 0.2s;
+    }
+    
+    button:hover {
+      background-color: #007bb5; /* Darker blue for hover effect */
+    }
+  }
+}
